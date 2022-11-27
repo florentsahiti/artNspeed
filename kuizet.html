@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  background: rgb(73, 51, 242);
+}
+
+.cards-container {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.card-wrapper {
+  display:flex;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 15%;
+	border-radius: 5px;
+  margin:5px auto;
+	-webkit-animation:scaledown 0.3s linear;
+	-moz-animation:scaledown 0.3s linear;
+	animation:scaledown 0.2s linear;
+	transform-origin:50% 50%;
+	animation-fill-mode: forwards;
+  background-color: white;
+  height: 100px;
+  width:200px;
+}
+
+.card-wrapper:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	z-index:100;
+	-webkit-animation:scale 0.3s linear;
+	-moz-animation:scale 0.3s linear;
+	animation:scale 0.1s linear;
+	transform-origin:50% 50%;
+	animation-fill-mode: forwards;
+}
+
+.card-image img {
+	border-radius: 5px 0 0 5px;
+  height: 90%;
+  width: 90px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.card-content h3 {
+  padding-right: 5px;
+  font-size: 1em;
+  
+}
+
+@keyframes scale{
+	0%{
+		transform:scale(1.0);
+  }
+	100%{
+		transform:scale(1.02);
+	}
+}
+
+@keyframes scaledown{
+	0%{
+		transform:scale(1.02);
+	}
+	100%{
+		transform:scale(1.0);
+	}
+}
+    </style>
+</head>
+<body>
+    
+<div class="cards-container">
+  
+    <a href="kuiz.html">
+  <div class="card-wrapper">
+    <div class="card-content">
+      <h3>Kultura Greke</h3>
+    </div>
+  </div>
+    </a>
+
+    <a href="kuiz2.html">
+        <div class="card-wrapper">
+          <div class="card-content">
+            <h3>Arti i Egjeut</h3>
+          </div>
+        </div>
+    </a>
+
+
+    <a href="kuiz3.html">
+        <div class="card-wrapper">
+          <div class="card-content">
+            <h3>Arti ilir në periudhën e hekurit</h3>
+          </div>
+        </div>
+          </a>
+
+  <a href="kuiz4.html">
+  <div class="card-wrapper">
+    <div class="card-content">
+      <h3>Arti egjiptian</h3>
+    </div>
+  </div>
+    </a>
+
+  <a href="kuiz5.html">
+  <div class="card-wrapper">
+    <div class="card-content">
+      <h3>Arti në Mesopotami</h3>
+    </div>
+  </div>
+    </a>
+
+  <a href="kuiz6.html">
+  <div class="card-wrapper">
+    <div class="card-content">
+      <h3>Arti prehistorik në Kosovë </h3>
+    </div>
+  </div>
+    </a>
+
+    
+    <a href="kuiz7.html">
+        <div class="card-wrapper">
+          <div class="card-content">
+            <h3>Arti ne prehistori</h3>
+          </div>
+        </div>
+          </a>
+
+
+  <a href="kuiz8.html">
+  <div class="card-wrapper">
+    <div class="card-content">
+      <h3>Relacioni Art-Shqiperi</h3>
+    </div>
+  </div>
+    </a>
+
+
+  <a href="kuiz9.html">
+  <div class="card-wrapper">
+    <div class="card-content">
+      <h3>Arti në Perandorinë Osmane</h3>
+    </div>
+  </div>
+    </a>
+
+
+  <a href="kuiz10.html">
+  <div class="card-wrapper">
+    <div class="card-content">
+      <h3>Arti Bizantin</h3>
+    </div>
+  </div>
+    </a>
+
+
+  <a href="kuiz11.html">
+  <div class="card-wrapper">
+    <div class="card-content">
+      <h3>Arti paleokristian në territoret Ilire</h3>
+    </div>
+  </div>
+    </a>
+
+  <a href="kuiz12.html">
+  <div class="card-wrapper">
+    <div class="card-content">
+      <h3>Kultura Greke</h3>
+    </div>
+  </div>
+    </a>
+
+
+  <a href="kuiz12.html">
+  <div class="card-wrapper">
+    <div class="card-content">
+      <h3>Arti Islam</h3>
+    </div>
+  </div>
+    </a>
+
+
+  <a href="kuiz13.html">
+  <div class="card-wrapper">
+    <div class="card-content">
+      <h3>Arti Romak</h3>
+    </div>
+  </div>
+    </a>
+
+
+  <a href="kuiz14.html">
+  <div class="card-wrapper">
+    <div class="card-content">
+      <h3>Kolonitë helenë në bregdetin Ilir </h3>
+    </div>
+  </div>
+
+    </a>
+    <a href="kuiz15.html">
+        <div class="card-wrapper">
+          <div class="card-content">
+            <h3>Dardania në Periudhën Romake </h3>
+          </div>
+        </div>
+          </a>
+
+
+
+</div>
+
+</body>
+</html>
